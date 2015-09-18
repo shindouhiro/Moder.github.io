@@ -1,3 +1,4 @@
+var React = require('react');
 var Action = React.createClass({
   render: function() {
     return (
@@ -8,3 +9,6 @@ var Action = React.createClass({
     );
   }
 });
+
+
+module.exports = Action;

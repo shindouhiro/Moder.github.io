@@ -1,3 +1,4 @@
+var React = require('react');
 var Books = React.createClass({
   render: function() {
     return (
@@ -10,3 +11,6 @@ var Books = React.createClass({
     );
   }
 });
+
+
+module.exports = Books;

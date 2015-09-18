@@ -1,3 +1,9 @@
+var React = require('react');
+var Header = require('./Header.js');
+var Action = require('./Action.js');
+var HaoDuo = require('./HaoDuo.js');
+var Books = require('./Books.js');
+var Footer = require('./Footer.js');
 var App = React.createClass({
 
 	render: function(){
@@ -14,4 +20,4 @@ var App = React.createClass({
 })
 
 
-React.render(<App />,document.getElementById('app'));
+module.exports = App;
